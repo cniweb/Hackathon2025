@@ -1,6 +1,6 @@
 # Hackathon2025
 
-Future Systems Dashboard + data-generating scripts used during Hackathon 2025.
+Watt Watchers Dashboard + data-generating scripts used during Hackathon 2025.
 
 ## Repository Structure
 
