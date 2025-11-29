@@ -14,13 +14,12 @@ Future Systems Dashboard + data-generating scripts used during Hackathon 2025.
 
 - Node.js 18+ and npm
 - Python 3.10+
-- macOS (fish shell examples)
 
 ## Quick Start (Web)
 
 Install dependencies and run the Vite app:
 
-```fish
+```bash
 # From repo root
 pushd Web/future_systems_dashboard
 npm install
@@ -31,7 +30,7 @@ popd
 
 Build for production:
 
-```fish
+```bash
 pushd Web/future_systems_dashboard
 npm run build
 # Output in Web/future_systems_dashboard/dist
@@ -42,7 +41,7 @@ popd
 
 Create a virtual environment and run data generators:
 
-```fish
+```bash
 # From repo root
 python3 -m venv .venv
 source .venv/bin/activate
@@ -58,7 +57,7 @@ popd
 
 CSV viewer utilities:
 
-```fish
+```bash
 pushd Scripts
 python3 csv_viewer.py
 python3 csv_viewer_motorstart.py
@@ -73,7 +72,6 @@ popd
 ## Scripts/Data
 
 - Generated CSV files in `Scripts/` are ignored by Git (`Scripts/*.csv`).
-- macOS `.DS_Store` files are ignored throughout the repo.
 
 ## License
 
