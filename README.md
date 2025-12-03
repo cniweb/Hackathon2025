@@ -64,6 +64,16 @@ python3 csv_viewer_motorstart.py
 popd
 ```
 
+## Prototype:
+
+https://fs-dash.christian-951.workers.dev
+
+
+## Presentation:
+
+https://gamma.app/docs/Watt-Watchers-Energy-Monitoring-Reimagined-eirol1468gjvxcs
+
+
 ## Development Notes
 
 - TypeScript settings in `future_systems_dashboard/tsconfig.json` are tuned for rapid iteration. Re-enable strict checks if you prefer tighter typing.
